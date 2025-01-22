@@ -1,0 +1,70 @@
+body,
+h1,
+h2,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(49, 82, 58);
+    font-family: fantasy;
+    font-size: 400%;
+    text-align: center;
+}
+
+h2 {
+    margin: 5px;
+    text-align: center;
+    color: darkgray
+}
+
+h3 {
+    text-align: center;
+}
+
+header {
+    overflow: hidden;
+    background: linear-gradient(#FFFFFF, #000000);
+    padding: 40px 10px;
+}
+
+body {
+    display: inline;
+}
+
+.boxes-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    max-width: 1024px;
+    width: 23%;
+    height: 900px;
+    margin-bottom: 20px;
+    display: flex;
+    background-color: #000000;
+    color: white;
+}
+
+.responsive {
+    display: block;
+    max-width: 100%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 3px;
+    background-color: darkgrey;
+    color: #FFFFFF;
+}
